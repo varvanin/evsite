@@ -1,7 +1,7 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<g-image alt="homelogo image" class="homelogo__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-.author {
+.homelogo {
 	margin: 0 auto;
 	max-width: 500px;
 	text-align: center;
