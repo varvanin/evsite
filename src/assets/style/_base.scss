@@ -26,3 +26,37 @@ a:not(.button) {
 img {
 	max-width: 100%;
 }
+
+        .path {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 3s linear forwards;
+
+        }
+
+        @keyframes dash {
+
+            from {
+                fill: none;
+            }
+
+            30% {
+                fill: none;
+            }
+
+            60% {
+                fill: none;
+            }
+
+            98% {
+                fill: none;
+            }
+
+
+            to {
+                stroke-dashoffset: 0;
+                fill: #000;
+
+            }
+
+        }
