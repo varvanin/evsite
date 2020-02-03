@@ -37,13 +37,14 @@ export default {
 .homelogo {
 	margin: 0 auto;
 	max-width: 500px;
-	text-align: center;
-        color: var(--body-color)!important;
+	text-align: center;  
 	padding: calc(var(--space) / 2) 0;
 
 	&__image {
 		width: 300px;
 		height: 230px;
+                color: var(--body-color)!important;
+
 	}
 
 	&__intro {
