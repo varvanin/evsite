@@ -12,7 +12,7 @@ import Author from '~/components/Homelogo.vue'
 
 export default {
   components: {
-    Author
+    Homelogo
   },
   metaInfo: {
     title: 'Hello, world!'
