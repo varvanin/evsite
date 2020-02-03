@@ -1,6 +1,6 @@
 <template>
   <Layout :show-logo="false">
-    <!-- Author intro -->
+    <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
     
   </Layout>
@@ -8,7 +8,7 @@
 
 
 <script>
-import Author from '~/components/Homelogo.vue'
+import Homelogo from '~/components/Homelogo.vue'
 
 export default {
   components: {
