@@ -6,6 +6,11 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+
+}
+</page-query>
 
 <script>
 import Homelogo from '~/components/Homelogo.vue'
