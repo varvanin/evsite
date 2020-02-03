@@ -8,7 +8,7 @@
 
 
 <script>
-import Author from '~/components/Author.vue'
+import Author from '~/components/Homelogo.vue'
 
 export default {
   components: {
