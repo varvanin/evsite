@@ -18,9 +18,6 @@ body {
   --radius: 5px;
 }
 
-.path {
-	--color: #000;
-}
 
 // Make  things smaller for mobile
 @media screen and (max-width: 650px) {
@@ -43,8 +40,4 @@ body[data-theme="dark"] {
  	--body-color: #ced8de;
  	--title-color: #fff;
  	--link-color: #af9cef;
-}
-
-.path[data-theme="dark" {
-	--color: #fff;
 }
