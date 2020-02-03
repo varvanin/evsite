@@ -1,7 +1,7 @@
 <template>
 	<div class="homelogo">
 
-		<g-image alt="homelogo image" class="homelogo__image" src="~/assets/images/ev.svg" width="180" height="180" blur="5" />
+		<g-image alt="homelogo image" class="homelogo__image" src="~/assets/images/ev.svg" width="180" height="180" blur="0" />
 
 		<h1 v-if="showTitle" class="homelogo__site-title">
 			{{ $static.metadata.siteName }}
