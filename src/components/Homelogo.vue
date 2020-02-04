@@ -58,7 +58,7 @@
     <p class="homelogo__links">
        <g-link to="/about/">O mnie</g-link>
        <g-link to="/projects/">Projekty</g-link>
-       <g-link to="/copntact/">Kontakt</g-link>   
+       <g-link to="/contact/">Kontakt</g-link>   
     </p>
   </div>
 </template>
