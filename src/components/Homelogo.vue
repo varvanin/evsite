@@ -1,6 +1,5 @@
 <template>
   <div class="homelogo">
-    <div v-if="darkTheme">
       <g-image
         alt="homelogo image"
         class="homelogo__image"
@@ -9,17 +8,6 @@
         height="180"
         blur="0"
       />
-    </div>
-    <div v-else>
-      <g-image
-        alt="homelogo image"
-        class="homelogo__image"
-        src="~/assets/images/ev.svg"
-        width="180"
-        height="180"
-        blur="0"
-      />
-    </div>
 
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
@@ -42,24 +30,6 @@ query {
 
 <script>
 export default {
-	data() {
-    return {
-      darkTheme: false
-    }
-  },
-  methods: {
-    toggleTheme() {
-      this.darkTheme = !this.darkTheme
-
-      // This is using a script that is added in index.html
-      window.__setPreferredTheme(
-        this.darkTheme ? 'dark' : 'light'
-      )
-    }
-  },
-  mounted() {
-    if (window.__theme == 'dark') this.darkTheme = true
-  },
   props: ["showTitle"]
 };
 </script>
