@@ -18,6 +18,12 @@
        <g-link to="/projects/">.projekty</g-link>
        <g-link to="/contact/">.kontakt</g-link>   
     </p>
+
+    <p class="social_links">
+       <g-link to="/about/">.o mnie</g-link>
+       <g-link to="/projects/">.projekty</g-link>
+       <g-link to="/contact/">.kontakt</g-link>   
+    </p>
   </div>
 </template>
 
@@ -53,6 +59,10 @@ export default {
     opacity: 0.8;
   }
   &__site-title {
+    font-size: 1.5em;
+  }
+
+  &__social {
     font-size: 1.5em;
   }
   &__links {

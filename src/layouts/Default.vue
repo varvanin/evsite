@@ -22,14 +22,6 @@
         <a href="//gridsome.org">Gridsome</a>
       </span>
       </div>
-
-      <div class="header__left">
-        <span class="social__links">
-        <a href="//gridsome.org">Facebook</a>
-        <a href="//gridsome.org">Insta</a>
-        <a href="//gridsome.org">Twitter</a>
-      </span>
-      </div>
     </footer>
   </div>
 </template>
@@ -93,12 +85,6 @@ export default {
       display: flex;
       align-items: center;
     }
-
-    &__social {
-      display: flex;
-      margin: 0.5em;
-    }
-
 
   > span {
     margin: 0 0.35em;
