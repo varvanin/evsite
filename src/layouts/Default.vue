@@ -72,7 +72,7 @@ export default {
   justify-content: center;
   padding: calc(var(--space) / 2);
   text-align: center;
-  font-size: .8em;
+  font-size: .5em;
 
   > span {
     margin: 0 .35em;

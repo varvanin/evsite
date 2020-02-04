@@ -3,7 +3,6 @@
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
      
-     </nav>
     
   </Layout>
 </template>
@@ -14,12 +13,10 @@
 
 <script>
 import Homelogo from '~/components/Homelogo.vue'
-import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    Homelogo,
-    Nav
+    Homelogo
   },
   metaInfo: {
     title: 'Hello, world!'

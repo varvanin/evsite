@@ -1,53 +1,12 @@
 <template>
   <div class="homelogo">
     <div class="logo-image">
-      <svg
-        height="100%"
-        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xmlns="http://www.w3.org/2000/svg"
-        xml:space="preserve"
-        width="300"
-        version="1.1"
-        viewBox="0 0 300 230"
-      >
-        <path
-          class="logo-image"
-          fill="var(--logo-color)"
-          stroke="var(--logo-color)"
-          d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"
-          stroke-linecap="round"
-          opacity="1"
-          stroke-linejoin="round"
-        />
-        <path
-          class="logo-image"
-          fill="var(--logo-color)"
-          stroke="var(--logo-color)"
-          d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"
-          stroke-linecap="round"
-          opacity="1"
-          stroke-linejoin="round"
-        />
-        <path
-          class="logo-image"
-          fill="var(--logo-color)"
-          stroke="var(--logo-color)"
-          d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"
-          stroke-linecap="round"
-          opacity="1"
-          stroke-linejoin="round"
-        />
-        <path
-          class="logo-image"
-          fill="var(--logo-color)"
-          stroke="var(--logo-color)"
-          d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"
-          stroke-linecap="round"
-          opacity="1"
-          stroke-linejoin="round"
-        />
-      </svg>
+        <svg width="300" clip-rule="evenodd" fill-rule="evenodd" version="1.1" viewBox="0 0 300 230" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+              <path class="logo-image" d="m14.802 16.49 65.962 0.165 16.374 44.798h-82.336v-44.962z" fill="var(--logo-color)" stroke="var(--logo-color)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="logo-image" d="m14.854 88.481 92.032 0.7273 15.9 44.258-107.93-0.022v-44.963z" fill="var(--logo-color)" stroke="var(--logo-color)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="logo-image" d="m14.854 160.54 117.74 0.306 16.18 44.563-133.92 0.093v-44.962z" fill="var(--logo-color)" stroke="var(--logo-color)" stroke-linecap="round" stroke-linejoin="round"/>
+              <path class="logo-image" d="m92.125 15.263 67.86 189.07h19.198 24.302 19.199l67.86-189.07h-19.198-12.122-19.198l-48.924 134.69-48.459-134.69h-19.198-12.122-19.198z" fill="var(--logo-color)" stroke="var(--logo-color)" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
     </div>
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
@@ -56,9 +15,9 @@
     >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 
     <p class="homelogo__links">
-       <g-link to="/about/">O mnie</g-link>
-       <g-link to="/projects/">Projekty</g-link>
-       <g-link to="/contact/">Kontakt</g-link>   
+       <g-link to="/about/">.o mnie</g-link>
+       <g-link to="/projects/">.projekty</g-link>
+       <g-link to="/contact/">.kontakt</g-link>   
     </p>
   </div>
 </template>
@@ -101,6 +60,7 @@ export default {
     margin-top: -0.5em;
     a {
       margin: 0 0.5em;
+      text-decoration: none;
     }
   }
 }
