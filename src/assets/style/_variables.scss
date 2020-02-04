@@ -16,12 +16,12 @@ body {
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
-  --logo-color:#557;
+  --logo-color:#ff0000;
 
 }
 
 .logotype {
-color: var(--logo-color);
+background-color: var(--logo-color);
 }
 
 
