@@ -1,10 +1,10 @@
 <template>
-  <Layout :show-logo="false">
-    <!-- Homelogo intro -->
-    <Homelogo :show-title="true" />
-    
-    <nav />
-    
+  <Layout>
+  
+    <g-link to="/about/">O mnie</g-link>
+    <g-link to="/projects/">Projekty</g-link>
+    <g-link to="/copntact/">Kontakt</g-link>
+  
   </Layout>
 </template>
 
@@ -13,13 +13,5 @@
 </page-query>
 
 <script>
-import Homelogo from '~/components/Nav.vue'
-export default {
-  components: {
-    Nav
-  },
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+
 </script>
