@@ -3,7 +3,7 @@
       <g-image
         alt="homelogo image"
         class="homelogo__image"
-        src="~/assets/images/ev_invert.svg"
+        src="~/assets/images/ev.svg"
         width="180"
         height="180"
         blur="0"
