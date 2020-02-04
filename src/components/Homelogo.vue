@@ -44,7 +44,8 @@ export default {
   &__image {
     width: 300px;
     height: 230px;
-    background: var(--logo-color);
+    background: var(--logo-bg-color);
+    color:var(--logo-color);
   }
 
   &__intro {
