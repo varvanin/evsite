@@ -15,11 +15,21 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
-      <span class="footer__links">
+      <div class="header__left">
+        <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
+        <span class="footer__links">
         Powered by
         <a href="//gridsome.org">Gridsome</a>
       </span>
+      </div>
+
+      <div class="header__left">
+        <span class="social__links">
+        <a href="//gridsome.org">Facebook</a>
+        <a href="//gridsome.org">Insta</a>
+        <a href="//gridsome.org">Twitter</a>
+      </span>
+      </div>
     </footer>
   </div>
 </template>
@@ -69,17 +79,25 @@ export default {
 
 .footer {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
-  text-align: center;
-  font-size: 0.5em;
-  
+  min-height: var(--footer-height);
+  padding: 0 calc(var(--space) / 2);
+  top: 0;
+  font-size: 0.6rem;
+  z-index: 20;
+
     &__left,
     &__right {
       display: flex;
       align-items: center;
     }
+
+    &__social {
+      display: flex;
+      margin: 0.5em;
+    }
+
 
   > span {
     margin: 0 0.35em;
