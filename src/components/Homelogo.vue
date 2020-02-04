@@ -2,7 +2,7 @@
   <div class="homelogo">
       <g-image
         alt="homelogo image"
-        class="logo-image homelogo__image"
+        class="homelogo__image"
         src="~/assets/images/ev.svg"
         width="180"
         height="180"
@@ -48,7 +48,7 @@ export default {
     color:var(--logo-color);
   }
   
-  &__logo-image {
+  &__svg {
     color:var(--logo-color);
   }
 
