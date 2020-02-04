@@ -1,13 +1,13 @@
 <template>
   <div class="homelogo">
-      <div class="logotype"><g-image
+      <g-image
         alt="homelogo image"
-        class="homelogo__image"
+        class="homelogo__image homelo__logoin-color"
         src="~/assets/images/ev.svg"
         width="180"
         height="180"
         blur="0"
-      /></div>
+      />
 
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
@@ -35,9 +35,6 @@ export default {
 </script>
 
 <style lang="scss">
-.logotype {
-  color: var(--body-color)!important;
-}
 .homelogo {
   margin: 0 auto;
   max-width: 500px;
