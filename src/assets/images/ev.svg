@@ -6,6 +6,9 @@
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
             animation: dash 4s linear forwards;
+            fill:var(--logo-color);
+            stroke:var(--stroke-color);
+
         }
 
 
@@ -14,14 +17,14 @@
             from {
                 fill:var(--logo-color);
                 fill-opacity:0;
-                stroke:var(--logo-color);
+                stroke:var(--stroke-color);
                 stroke-width:4;
             }
 
             98% {
                 fill:var(--logo-colorr);
                 fill-opacity:0;
-                stroke:var(--logo-color);
+                stroke:var(--stroke-color);
                 stroke-width:4;
             }
 
@@ -31,7 +34,7 @@
                 fill: var(--logo-color);
                 fill-opacity:1;
                 stroke-width:4;
-                stroke:var(--logo-color);
+                stroke:var(--stroke-color);
 
             }
 
