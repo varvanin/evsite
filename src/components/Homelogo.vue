@@ -1,5 +1,5 @@
 <template>
-  <div class="homelogo__logo-color">
+  <div class="homelogo">
       <g-image
         alt="homelogo image"
         class="homelogo__image"
@@ -44,6 +44,7 @@ export default {
   &__image {
     width: 300px;
     height: 230px;
+    backgroud:var(--logo-color);
   }
 
   &__intro {
