@@ -2,7 +2,7 @@
   <div class="homelogo">
       <g-image
         alt="homelogo image"
-        class="homelogo__image homelo__logoin-color"
+        class="homelogo__image"
         src="~/assets/images/ev.svg"
         width="180"
         height="180"
