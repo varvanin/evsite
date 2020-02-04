@@ -14,7 +14,7 @@
 
 <script>
 import Homelogo from '~/components/Homelogo.vue'
-import Homelogo from '~/components/Nav.vue'
+import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
