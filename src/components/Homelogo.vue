@@ -2,7 +2,7 @@
   <div class="homelogo">
       <g-image
         alt="homelogo image"
-        class="logotype homelogo__image"
+        class="homelogo__image"
         src="~/assets/images/ev.svg"
         width="180"
         height="180"
@@ -44,6 +44,7 @@ export default {
   &__image {
     width: 300px;
     height: 230px;
+    background: var(--logo-color);
   }
 
   &__intro {
