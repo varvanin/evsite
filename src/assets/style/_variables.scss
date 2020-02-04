@@ -16,7 +16,9 @@ body {
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
-  --logo-color:#ff0000;
+// Logo variables
+  --logo-bg-color:#fff;
+  --logo-color:#000;
 
 }
 
@@ -42,6 +44,8 @@ body[data-theme="dark"] {
  	--body-color: #ced8de;
  	--title-color: #fff;
 	--link-color: #af9cef;
-	--logo-color:#ffffff;
+// Logo variables
+  --logo-bg-color:#333;
+  --logo-color:#fff;
 }
 
