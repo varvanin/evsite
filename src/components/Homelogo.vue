@@ -1,13 +1,54 @@
 <template>
   <div class="homelogo">
-      <g-image
-        alt="homelogo image"
-        class="homelogo__image"
-        src="~/assets/images/ev.svg"
-        width="180"
-        height="180"
-        blur="0"
-      />
+  <div>
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300" version="1.1" viewBox="0 0 300 230">
+
+    <style>
+        .logo-image {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 4s linear forwards;
+
+        }
+
+
+        @keyframes dash {
+
+            from {
+                fill:var(--logo-color);
+                fill-opacity:0;
+                stroke:var(--logo-color);
+                stroke-width:4;
+            }
+
+            98% {
+                fill:var(--logo-color);
+                fill-opacity:0;
+                stroke:var(--logo-color);
+                stroke-width:4;
+            }
+
+
+            to {
+                stroke-dashoffset: 0;
+                fill: var(--logo-color);
+                fill-opacity:1;
+                stroke-width:4;
+                stroke:var(--logo-color);
+
+            }
+
+        }
+    </style>
+
+
+ <path class="logo-image" fill='var(--logo-color)' d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" fill='var(--logo-color)' d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" fill='var(--logo-color)' d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" fill='var(--logo-color)' d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+
+</svg>
+</div>
 
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
