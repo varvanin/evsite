@@ -1,6 +1,6 @@
 <template>
   <div class="homelogo">
-  <div>
+  <div class="logo-image">
 <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300" version="1.1" viewBox="0 0 300 230">
 
     <style>
