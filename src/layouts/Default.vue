@@ -75,6 +75,7 @@ export default {
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
+  min-height: calc(100vh - 130px);
 }
 
 .footer {

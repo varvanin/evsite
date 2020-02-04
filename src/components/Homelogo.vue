@@ -40,7 +40,7 @@ export default {
   margin: 0 auto;
   max-width: 500px;
   text-align: center;
-  padding: calc(var(--space) / 2) 0;
+  padding: calc(var(--space) / 0.4) 0;
   &__image {
     width: 300px;
     height: 230px;
