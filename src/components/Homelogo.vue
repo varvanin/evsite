@@ -44,7 +44,6 @@ export default {
   &__image {
     width: 300px;
     height: 230px;
-    backgroud:var(--logo-color);
   }
 
   &__intro {
