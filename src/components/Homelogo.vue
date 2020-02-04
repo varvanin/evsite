@@ -11,8 +11,7 @@
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
     <p
-      class="homelogo__intro"
-    >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
+      class="homelogo__intro">tworzenie i projektowanie stron internetowych.</p>
 
     <p class="homelogo__links">
        <g-link to="/about/">.o mnie</g-link>
