@@ -15,26 +15,26 @@
         @keyframes dash {
 
             from {
-                fill:var(--logo-color);
+                fill:#fff;
                 fill-opacity:0;
-                stroke:var(--logo-color);
+                stroke:#fff;
                 stroke-width:4;
             }
 
             98% {
-                fill:var(--logo-color);
+                fill:#fff;
                 fill-opacity:0;
-                stroke:var(--logo-color);
+                stroke:#fff;
                 stroke-width:4;
             }
 
 
             to {
                 stroke-dashoffset: 0;
-                fill: var(--logo-color);
+                fill:000;
                 fill-opacity:1;
                 stroke-width:4;
-                stroke:var(--logo-color);
+                stroke:#000;
 
             }
 
