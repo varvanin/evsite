@@ -56,8 +56,9 @@
     >Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.</p>
 
     <p class="homelogo__links">
-      <a href="//twitter.com/gridsome">Follow on Twitter</a>
-      <a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+       <g-link to="/about/">O mnie</g-link>
+       <g-link to="/projects/">Projekty</g-link>
+       <g-link to="/copntact/">Kontakt</g-link>   
     </p>
   </div>
 </template>
