@@ -42,10 +42,10 @@
     </style>
 
 
- <path class="logo-image" fill='var(--logo-color)' d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logo-image" fill='var(--logo-color)' d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logo-image" fill='var(--logo-color)' d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logo-image" fill='var(--logo-color)' d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logo-image" d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 
 </svg>
 </div>
