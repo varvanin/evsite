@@ -18,7 +18,7 @@ import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    Homelogo
+    Homelogo,
     Nav
   },
   metaInfo: {
