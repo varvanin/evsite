@@ -19,11 +19,11 @@
        <g-link to="/contact/">.kontakt</g-link>   
     </p>
 
-    <p class="social_links">
-       <g-link to="/about/">.o mnie</g-link>
-       <g-link to="/projects/">.projekty</g-link>
-       <g-link to="/contact/">.kontakt</g-link>   
-    </p>
+    <div class="social">
+        <font-awesome :icon="['fab', 'whatsapp']"/>
+        <font-awesome :icon="['fab', 'facebook']"/>
+        <font-awesome :icon="['fab', 'twitter']"/>
+    </div>
   </div>
 </template>
 
@@ -39,6 +39,7 @@ query {
 export default {
   props: ["showTitle"]
 };
+
 </script>
 
 <style lang="scss">
@@ -61,10 +62,6 @@ export default {
   &__site-title {
     font-size: 1.5em;
   }
-
-  &__social {
-    font-size: 1.5em;
-  }
   &__links {
     margin-top: -0.5em;
     a {
@@ -73,6 +70,12 @@ export default {
     }
   }
 }
+
+.social {
+    font-size: 1.6em;
+    color: var(--logo-color);
+
+  }
 
 .logo-image {
   stroke-dasharray: 1000;
