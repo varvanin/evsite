@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 300 230">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300" version="1.1" viewBox="0 0 300 230">
 
     <style>
         .logotype {
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
             animation: dash 4s linear forwards;
+           --logoin-color:#ff0000;
+           --logoout-color:#ff0000;
 
         }
 
@@ -13,26 +15,26 @@
         @keyframes dash {
 
             from {
-                fill:#fff;
+                fill:var(--logoin-color);
                 fill-opacity:0;
-                stroke:#000000;
+                stroke:var(--logoout-color);
                 stroke-width:4;
             }
 
             98% {
-                fill:#fff;
+                fill:var(--logoin-colorr);
                 fill-opacity:0;
-                stroke:#000000;
+                stroke:var(--logoout-color);
                 stroke-width:4;
             }
 
 
             to {
                 stroke-dashoffset: 0;
-                fill: #000;
+                fill: var(--logoin-color);
                 fill-opacity:1;
                 stroke-width:4;
-                stroke:#000000;
+                stroke:var(--logoout-color);
 
             }
 
@@ -40,9 +42,9 @@
     </style>
 
 
- <path class="logotype" stroke="currentColor" d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logotype" stroke="currentColor" d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logotype" stroke="currentColor" d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
- <path class="logotype" stroke="currentColor" d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logotype" d="M14.8024+16.4901L80.7644+16.6551L97.1384+61.4526L14.8024+61.4526L14.8024+16.4901Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logotype" d="M14.8544+88.4811L106.886+89.2084L122.786+133.466L14.8544+133.444L14.8544+88.4811Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logotype" d="M14.8544+160.539L132.595+160.845L148.775+205.408L14.8544+205.501L14.8544+160.539Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+ <path class="logotype" d="M92.1254+15.2633L159.985+204.333L179.183+204.333L203.485+204.333L222.684+204.333L290.544+15.2633L271.346+15.2633L259.224+15.2633L240.026+15.2633L191.102+149.949L142.643+15.2633L123.445+15.2633L111.323+15.2633L92.1254+15.2633Z"  stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
 
 </svg>
