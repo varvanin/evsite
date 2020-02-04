@@ -6,7 +6,7 @@
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
             animation: dash 4s linear forwards;
-           --logo-color:#888;
+            color:var(--logo-color);
 
         }
 
