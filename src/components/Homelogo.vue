@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style lang="scss">
+.logotype {
+  color: var(--body-color)!important;
+}
 .homelogo {
   margin: 0 auto;
   max-width: 500px;
