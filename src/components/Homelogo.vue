@@ -20,9 +20,9 @@
     </p>
 
     <div class="social">
-        <font-awesome :icon="['fab', 'whatsapp']"/>
-        <font-awesome :icon="['fab', 'facebook']"/>
-        <font-awesome :icon="['fab', 'twitter']"/>
+        <g-link to="/about/"><font-awesome :icon="['fab', 'whatsapp']"/></g-link>
+        <g-link to="https://www.facebook.com/varvanin"><font-awesome :icon="['fab', 'facebook']"/></g-link>
+        <g-link to="/about/"><font-awesome :icon="['fab', 'twitter']"/></g-link>
     </div>
   </div>
 </template>
@@ -73,8 +73,10 @@ export default {
 
 .social {
     font-size: 1.6em;
-    color: var(--logo-color);
-
+    a {
+          color: var(--logo-color);
+          padding: 0.2em;
+        }
   }
 
 .logo-image {
