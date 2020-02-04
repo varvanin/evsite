@@ -3,7 +3,7 @@
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
      
-     <nav />
+     </nav>
     
   </Layout>
 </template>
