@@ -1,13 +1,13 @@
 <template>
   <div class="homelogo">
-      <g-image
+      <div class="logotype"><g-image
         alt="homelogo image"
         class="homelogo__image"
         src="~/assets/images/ev.svg"
         width="180"
         height="180"
         blur="0"
-      />
+      /></div>
 
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
