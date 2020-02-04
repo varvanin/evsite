@@ -20,9 +20,12 @@
     </p>
 
     <div class="social">
-        <g-link to="/about/"><font-awesome :icon="['fab', 'whatsapp']"/></g-link>
+        <g-link to="https://wa.me/720971779"><font-awesome :icon="['fab', 'whatsapp']"/></g-link>
         <g-link to="https://www.facebook.com/varvanin"><font-awesome :icon="['fab', 'facebook']"/></g-link>
-        <g-link to="/about/"><font-awesome :icon="['fab', 'twitter']"/></g-link>
+        <g-link to="https://www.instagram.com/eugene_varvanin"><font-awesome :icon="['fab', 'instagram']"/></g-link>
+        <g-link to="mailto:varvanin84@gmail.com"><font-awesome :icon="['fas', 'at']"/></g-link>
+        
+        
     </div>
   </div>
 </template>

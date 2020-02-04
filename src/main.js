@@ -4,11 +4,12 @@ import '~/assets/style/index.scss'
 // Import fa icons
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faFacebook, faWhatsapp, faTwitter, } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+import { faAt } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add(faWhatsapp, faFacebook, faTwitter)
+library.add(faWhatsapp, faFacebook, faInstagram, faAt)
 
 
 // Import default layout so we don't need to import it to every page
