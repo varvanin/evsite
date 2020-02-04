@@ -1,5 +1,5 @@
 <template>
-  <div class="homelogo">
+  <div class="homelogo__logo-color">
       <g-image
         alt="homelogo image"
         class="homelogo__image"
