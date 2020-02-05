@@ -13,9 +13,6 @@ export default {
     }
   },
   methods: {
-    reloadPage(){
-    window.location.reload()
-  },
     toggleTheme() {
       this.darkTheme = !this.darkTheme
 
