@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <transition appear
-        appear-active-class="fade-enter-active"
-        @before-appear="beforeAppear"
-        @appear="appear"
-        @after-appear="afterAppear">
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
@@ -28,7 +23,6 @@
       </span>
       </div>
     </footer>
-     </transition>
   </div>
 </template>
 
@@ -44,18 +38,7 @@ export default {
     Logo,
     ToggleTheme
   },
-  methods: {
-    beforeAppear: function(el) {
-      console.log('beforeAppear')
-    },
-    appear: function(el) {
-      console.log('appear!')
-    },
-    afterAppear: function(el) {
-      console.log('afterAppear!')
-    }
-  }
-};
+ };
 </script>
 
 <style lang="scss">
