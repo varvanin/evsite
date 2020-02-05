@@ -1,5 +1,6 @@
 <template>
   <Layout :show-logo="true">
+      <Nav v-if="showNav" />
    
      
   </Layout>
@@ -10,5 +11,15 @@
 </page-query>
 
 <script>
+import Nav from "~/components/Nav.vue";
 
+export default {
+  props: {
+    showNav: { default: true }
+  },
+  components: {
+    Nav
+  }
+}
 </script>
+

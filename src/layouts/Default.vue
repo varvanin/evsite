@@ -3,6 +3,7 @@
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
+
       </div>
 
       <div class="header__right">
@@ -33,7 +34,7 @@ import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
-    showLogo: { default: true }
+    showLogo: { default: true },
   },
   components: {
     Logo,
