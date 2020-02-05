@@ -19,16 +19,17 @@
 .logo-image {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 4s linear forwards;
+  transition: all 0.5s ease-in;
+  animation: dash 3s linear forwards;
+  
 }
+
 @keyframes dash {
   from {
-  
     fill-opacity: 0;  
     stroke-width: 4;
   }
   98% {
-   
     fill-opacity: 0;
     stroke-width: 4;
   }
