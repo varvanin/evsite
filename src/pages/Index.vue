@@ -13,12 +13,11 @@
 
 <script>
 import Homelogo from '~/components/Homelogo.vue'
-import Logotype from '~/components/Logotype.vue'
+
 
 export default {
   components: {
-    Homelogo,
-    Logotype
+    Homelogo
   },
   metaInfo: {
     title: 'Hello, world!'

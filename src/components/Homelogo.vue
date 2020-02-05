@@ -1,8 +1,8 @@
 <template>
   <div class="homelogo">
    
-  <logotype :key="componentKey" />
-
+  <logotype />
+  
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
     <p
@@ -82,31 +82,5 @@ export default {
           padding: 0.2em;
         }
   }
-
-.logo-image {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 4s linear forwards;
-}
-@keyframes dash {
-  from {
-    fill: var(--logo-color);
-    fill-opacity: 0;
-    stroke:var(--logo-color);
-    stroke-width: 4;
-  }
-  98% {
-    fill:var(--logo-color);
-    fill-opacity: 0;
-    stroke:var(--logo-color);
-    stroke-width: 4;
-  }
-  to {
-    stroke-dashoffset: 0;
-    fill: var(--logo-color);
-    fill-opacity: 1;
-    stroke-width: 4;
-    stroke: var(--logo-color);
-  }
-}
+  
 </style>

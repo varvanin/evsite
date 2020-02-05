@@ -11,27 +11,7 @@
 
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <script>
-export default {
-  data() {
-    return {
-      componentKey: 0,
-    };
-  },
-  methods: {
-    forceRerender() {
-      this.componentKey += 1;  
-    }
-  }
-}
 
 </script>
 
@@ -43,23 +23,20 @@ export default {
 }
 @keyframes dash {
   from {
-    fill: var(--logo-color);
-    fill-opacity: 0;
-    stroke:var(--logo-color);
+  
+    fill-opacity: 0;  
     stroke-width: 4;
   }
   98% {
-    fill:var(--logo-color);
+   
     fill-opacity: 0;
-    stroke:var(--logo-color);
     stroke-width: 4;
   }
   to {
-    stroke-dashoffset: 0;
-    fill: var(--logo-color);
+    stroke-dashoffset: 0;  
     fill-opacity: 1;
     stroke-width: 4;
-    stroke: var(--logo-color);
+  
   }
 }
 </style>
