@@ -1,8 +1,8 @@
 <template>
   <div class="homelogo">
    
-  <logotype/>
-  
+  <logotype :key="componentKey" />
+
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName }}</h1>
 
     <p

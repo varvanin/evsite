@@ -20,7 +20,18 @@ query {
 </static-query>
 
 <script>
-
+export default {
+  data() {
+    return {
+      componentKey: 0,
+    };
+  },
+  methods: {
+    forceRerender() {
+      this.componentKey += 1;  
+    }
+  }
+}
 
 </script>
 
