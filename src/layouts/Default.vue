@@ -72,12 +72,13 @@ export default {
   min-height: calc(100vh - 130px);
 }
 
-.fade-enter-active {
-  transition: opacity .5s;
+.fade-enter-active,
+.fade-leave-active {
+	transition: ease opacity 0.3s;
 }
-
-.fade-enter {
-  opacity: 0;
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
 }
 
 .footer {
