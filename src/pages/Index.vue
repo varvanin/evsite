@@ -2,7 +2,7 @@
   <Layout :show-logo="false">
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
-     
+      
     
   </Layout>
 </template>
@@ -13,10 +13,12 @@
 
 <script>
 import Homelogo from '~/components/Homelogo.vue'
+import Logotype from '~/components/Logotype.vue'
 
 export default {
   components: {
-    Homelogo
+    Homelogo,
+    Logotype
   },
   metaInfo: {
     title: 'Hello, world!'
