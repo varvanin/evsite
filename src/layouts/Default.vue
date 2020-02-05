@@ -11,8 +11,8 @@
     </header>
 
       <transition name="fade" appear>
-        <main> <!-- a wrapper for slot is needed -->
-          <slot /> <!-- the content -->
+        <main class="main">
+          <slot />
         </main>
       </transition>
 
