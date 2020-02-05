@@ -10,9 +10,10 @@
       </div>
     </header>
 
-    <main class="main">
-      <slot />
-    </main>
+          <main class="main">
+          <slot />
+        </main>
+ 
 
     <footer class="footer">
       <div class="header__left">
@@ -38,7 +39,7 @@ export default {
     Logo,
     ToggleTheme
   }
-};
+}
 </script>
 
 <style lang="scss">
