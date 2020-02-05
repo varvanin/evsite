@@ -18,7 +18,8 @@ export default {
 data() {
     return {
       componentKey: 0
-    },
+    }
+  },  
   components: {
     Homelogo
   },
