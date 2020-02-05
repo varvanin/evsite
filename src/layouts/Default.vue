@@ -10,9 +10,11 @@
       </div>
     </header>
 
-    <main class="main">
-      <slot />
-    </main>
+      <transition name="fade" appear>
+        <main> <!-- a wrapper for slot is needed -->
+          <slot /> <!-- the content -->
+        </main>
+      </transition>
 
     <footer class="footer">
       <div class="header__left">
@@ -68,6 +70,14 @@ export default {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
   min-height: calc(100vh - 130px);
+}
+
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 
 .footer {
