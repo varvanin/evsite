@@ -39,8 +39,8 @@ export default {
   components: {
     Logo,
     ToggleTheme
-  },
- };
+  }
+}
 </script>
 
 <style lang="scss">
