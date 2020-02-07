@@ -27,16 +27,16 @@
 @keyframes dash {
   from {
     fill-opacity: 0;  
-    stroke-width: 4;
+    stroke-width: 2;
   }
   98% {
     fill-opacity: 0;
-    stroke-width: 4;
+    stroke-width: 2;
   }
   to {
     stroke-dashoffset: 0;  
     fill-opacity: 1;
-    stroke-width: 4;
+    stroke-width: 2;
   
   }
 }

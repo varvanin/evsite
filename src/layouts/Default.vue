@@ -44,6 +44,15 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+    font-family: 'visby-round';
+    src: url('../assets/fonts/visby-round.eot');
+    src: url('../assets/fonts/visby-round.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/visby-round.woff') format('woff'),
+         url('../assets/fonts/visby-round-bold.eot'),
+         url('../assets/fonts/visby-round-bold.woff')
+}
+
 .header {
   display: flex;
   justify-content: space-between;
