@@ -8,6 +8,15 @@ module.exports = {
   siteName: 'szybko. tanio. zajebiście.',
   siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
 
+  plugins: [
+    {
+      use: 'gridsome-plugin-brotli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
+      }
+    }
+  ],
+
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'

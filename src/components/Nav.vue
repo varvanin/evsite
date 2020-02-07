@@ -1,9 +1,9 @@
 <template>
-    <p class="nav__links">
+    <nav class="nav__links">
        <g-link to="/about/">o mnie</g-link>
        <g-link to="/projects/">projekty</g-link>
        <g-link to="/contact/">kontakt</g-link>   
-    </p>
+    </nav>
 </template>
 
 <static-query>
@@ -16,12 +16,11 @@ query {
 
 <style lang="scss">
 .nav {
+    display: flex;
   margin: 0 auto;
-  text-align: center;
-  padding: calc(var(--space) / 0.4) 0;
 
   &__links {
-    margin: -3.7em 0 0 3.7em;
+    margin: 0;
     a {
       margin: 0 0.5em;
       text-decoration: none;

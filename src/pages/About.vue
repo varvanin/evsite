@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="true">
+  <Layout :show-logo="true" >
       <Nav v-if="showNav" />
    
      
