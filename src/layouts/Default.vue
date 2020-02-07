@@ -3,26 +3,23 @@
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
-
       </div>
 
       <div class="header__right">
         <ToggleTheme />
       </div>
     </header>
-
-          <main class="main">
-          <slot />
-        </main>
- 
+    <main class="main">
+      <slot />
+    </main>
 
     <footer class="footer">
       <div class="header__left">
         <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
         <span class="footer__links">
-        Powered by
-        <a href="//gridsome.org">Gridsome</a>
-      </span>
+          Działa na
+          <a href="//gridsome.org">Gridsome</a>
+        </span>
       </div>
     </footer>
   </div>
@@ -34,23 +31,27 @@ import ToggleTheme from "~/components/ToggleTheme.vue";
 
 export default {
   props: {
-    showLogo: { default: true },
+    showLogo: { default: true }
+  },
+  metaInfo: {
+    title: "Tworzenie i projektowanie stron internetowych",
+    titleTemplate: "%s | szybko. tanio. zajebiście."
   },
   components: {
     Logo,
     ToggleTheme
   }
-}
+};
 </script>
 
 <style lang="scss">
 @font-face {
-    font-family: 'visby-round';
-    src: url('../assets/fonts/visby-round.eot');
-    src: url('../assets/fonts/visby-round.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/visby-round.woff') format('woff'),
-         url('../assets/fonts/visby-round-bold.eot'),
-         url('../assets/fonts/visby-round-bold.woff')
+  font-family: "visby-round";
+  src: url("../assets/fonts/visby-round.eot");
+  src: url("../assets/fonts/visby-round.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/visby-round.woff") format("woff"),
+    url("../assets/fonts/visby-round-bold.eot"),
+    url("../assets/fonts/visby-round-bold.woff");
 }
 
 .header {
@@ -91,11 +92,11 @@ export default {
   font-size: 0.6rem;
   z-index: 20;
 
-    &__left,
-    &__right {
-      display: flex;
-      align-items: center;
-    }
+  &__left,
+  &__right {
+    display: flex;
+    align-items: center;
+  }
 
   > span {
     margin: 0 0.35em;

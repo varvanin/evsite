@@ -19,6 +19,10 @@ export default {
   },
   components: {
     Nav
+  },
+  name: 'O Mnie',
+  metaInfo: {
+    title: 'O mnie'
   }
 }
 </script>

@@ -6,9 +6,6 @@
   </Layout>
 </template>
 
-<page-query>
-
-</page-query>
 
 <script>
 

@@ -6,14 +6,6 @@
     </nav>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <style lang="scss">
 .nav {
     display: flex;
@@ -27,5 +19,4 @@ query {
     }
   }
 }
-
 </style>

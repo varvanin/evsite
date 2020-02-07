@@ -6,7 +6,8 @@
 
 module.exports = {
   siteName: 'szybko. tanio. zajebiście.',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+  siteUrl: 'http://varvanin.eu',
+  siteDescription: 'tworzenie i projektowanie stron internetowych.',
 
   plugins: [
     {

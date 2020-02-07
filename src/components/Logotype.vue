@@ -11,10 +11,6 @@
 
 </template>
 
-<script>
-
-</script>
-
 <style lang="scss">
 .logo-image {
   stroke-dasharray: 1000;

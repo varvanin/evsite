@@ -2,8 +2,6 @@
   <Layout :show-logo="false">
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
-      
-    
   </Layout>
 </template>
 
@@ -19,8 +17,11 @@ export default {
   components: {
     Homelogo
   },
-  metaInfo: {
-    title: 'Hello, world!'
-  }
+    name: 'Główna',
+    metaInfo: {
+      title: 'szybko. tanio. zajebiście.',
+      titleTemplate: null
+    }
+  
 }
 </script>

@@ -8,6 +8,7 @@ import { faFacebook, faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg
 import { faAt } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
+
 config.autoAddCss = false;
 library.add(faWhatsapp, faFacebook, faInstagram, faAt)
 
@@ -26,3 +27,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
 }
+
+
+
