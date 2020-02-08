@@ -2,7 +2,6 @@
     <nav class="nav__links">
       <g-link to="/about/">O mnie</g-link>
       <g-link to="/projects/">Projekty</g-link>
-      <g-link to="/blog/">Artykuly</g-link>
       <g-link to="/contact/">Kontakt</g-link>
     </nav>
 </template>
