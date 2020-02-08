@@ -4,6 +4,9 @@
       <div class="header__left">
         <Logo v-if="showLogo" />
       </div>
+      <div class="header__nav">
+        <Nav v-if="showNav" />
+      </div>
 
       <div class="header__right">
         <ToggleTheme />
@@ -28,10 +31,13 @@
 <script>
 import Logo from "~/components/Logo.vue";
 import ToggleTheme from "~/components/ToggleTheme.vue";
+import Nav from "~/components/Nav.vue";
 
 export default {
   props: {
-    showLogo: { default: true }
+    showLogo: { default: true },
+    showNav: { default: true },
+
   },
   metaInfo: {
     title: "Tworzenie i projektowanie stron internetowych",
@@ -39,7 +45,8 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    Nav
   }
 };
 </script>
@@ -63,11 +70,17 @@ export default {
   top: 0;
   z-index: 10;
 
+  &__nav {
+      display: flex;
+      align-items: left;
+  }
+
   &__left,
   &__right {
     display: flex;
     align-items: center;
   }
+
 
   @media screen and (min-width: 1300px) {
     //Make header sticky for large screens

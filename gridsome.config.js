@@ -9,15 +9,6 @@ module.exports = {
   siteUrl: 'http://varvanin.eu',
   siteDescription: 'tworzenie i projektowanie stron internetowych.',
 
-  plugins: [
-    {
-      use: 'gridsome-plugin-brotli',
-      options: {
-        extensions: ['css', 'html', 'js', 'svg']
-      }
-    }
-  ],
-
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'

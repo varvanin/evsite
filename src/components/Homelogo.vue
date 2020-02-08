@@ -1,5 +1,6 @@
 <template>
   <div class="homelogo">
+
     <logotype />
 
     <h1 v-if="showTitle" class="homelogo__site-title">{{ $static.metadata.siteName}}</h1>
@@ -9,6 +10,7 @@
     <p class="homelogo__links">
       <g-link to="/about/">.o mnie</g-link>
       <g-link to="/projects/">.projekty</g-link>
+      <g-link to="/blog/">.artykuly</g-link>
       <g-link to="/contact/">.kontakt</g-link>
     </p>
 

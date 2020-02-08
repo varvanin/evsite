@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout :show-logo="false" :showNav="false">
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
   </Layout>
