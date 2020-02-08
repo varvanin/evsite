@@ -12,10 +12,11 @@
         <ToggleTheme />
       </div>
     </header>
-    <main class="main">
-      <slot />
-    </main>
-
+    <transition name="fade" appear>
+      <main class="main">
+        <slot />
+      </main>
+    </transition>
     <footer class="footer">
       <div class="header__left">
         <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
@@ -36,8 +37,7 @@ import Nav from "~/components/Nav.vue";
 export default {
   props: {
     showLogo: { default: true },
-    showNav: { default: true },
-
+    showNav: { default: true }
   },
   metaInfo: {
     title: "Tworzenie i projektowanie stron internetowych",
@@ -72,8 +72,8 @@ export default {
   z-index: 10;
 
   &__nav {
-      display: flex;
-      align-items: left;
+    display: flex;
+    align-items: left;
   }
 
   &__left,
@@ -82,7 +82,6 @@ export default {
     align-items: center;
   }
 
-
   @media screen and (min-width: 1300px) {
     //Make header sticky for large screens
     position: sticky;
@@ -90,10 +89,26 @@ export default {
   }
 }
 
+
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
   min-height: calc(100vh - 60px);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+.fade-enter-active {
+  transition-delay: 0.3s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
 }
 
 .footer {

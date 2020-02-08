@@ -59,10 +59,6 @@ export default {
   text-align: center;
   z-index: 999;
   padding: calc(var(--space) / 0.4) 0;
-  &__image {
-    width: 300px;
-    height: 230px;
-  }
 
   &__svg {
     color: var(--logo-color);
