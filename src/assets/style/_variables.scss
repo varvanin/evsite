@@ -18,6 +18,8 @@ body {
   --radius: 5px;
 // Logo variables
   --logo-color:#000;
+// Header variables
+  --header-color:#fff;
 
 }
 
@@ -45,5 +47,9 @@ body[data-theme="dark"] {
 	--link-color: #af9cef;
 // Logo variables
   --logo-color:#fff;
+// Header variables
+  --header-color:#111;
 }
+
+
 

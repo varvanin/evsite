@@ -1,9 +1,9 @@
 <template>
     <nav class="nav__links">
-      <g-link to="/about/">o mnie</g-link>
-      <g-link to="/projects/">projekty</g-link>
-      <g-link to="/blog/">artykuly</g-link>
-      <g-link to="/contact/">kontakt</g-link>
+      <g-link to="/about/">O mnie</g-link>
+      <g-link to="/projects/">Projekty</g-link>
+      <g-link to="/blog/">Artykuly</g-link>
+      <g-link to="/contact/">Kontakt</g-link>
     </nav>
 </template>
 
@@ -18,6 +18,8 @@
     margin: 0;
     a {
       margin: 0 0.5em;
+      font-family: "visby-round";
+      color: var(--logo-color);
       text-decoration: none;
     }
   }

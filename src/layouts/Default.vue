@@ -65,6 +65,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--header-color);
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
   top: 0;
@@ -92,7 +93,7 @@ export default {
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
-  min-height: calc(100vh - 130px);
+  min-height: calc(100vh - 60px);
 }
 
 .footer {
