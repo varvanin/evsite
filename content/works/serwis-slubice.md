@@ -1,11 +1,10 @@
 ---
 title: Słubickie Centrum Serwisowe
 published: true
-tags: ['Firmowa strona', 'Wordpress']
 series: false
 cover_image: ./images/serwis-slubice.jpg
 canonical_url: false
-description: ""
+description: "Strona dla firmy Słubickie Centrum Serwisowe"
 ---
 
 Słubickie Centrum Serwisowe świadczy w swoim zakresie usługi serwisowe urządzeń telekomunikacyjnych, gwarancyjny i pogwarancyjny serwis naprawczy urządzeń telekomunikacyjnych, tabletów, nawigacji nieprzerwanie od 2005 roku.

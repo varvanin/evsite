@@ -1,10 +1,9 @@
 ---
 title: Rechtsanwältin Carolin Richter
 published: true
-tags: ['Personalna strona', 'October CMS']
 cover_image: ./images/karolin.jpg
 canonical_url: false
-description: ""
+description: "Personalna strona dla prawnika Karolin Richter"
 
 ---
 

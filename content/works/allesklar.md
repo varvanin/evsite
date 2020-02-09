@@ -1,11 +1,10 @@
 ---
-title: Allesklar
+title: Tłumaczenia, usługi, doradztwo
 published: true
-tags: ['Personalna strona', 'October CMS' ]
 series: false
 cover_image: ./images/allesklar.jpg
-canonical_url: false
-description: ""
+canonical_url: true
+description: "Pesonalna strona dla Olgi Rudnickiej"
 ---
 
 
