@@ -12,3 +12,4 @@ Die Kanzlei wurde 2009 gegründet. Bereits von Anfang an bestand eine Spezialisi
 
 Meine Aufgabe ist es, Sie in der emotional belastenden Situation mit meiner Kompetenz und mehr als 10 jährigen Berufserfahrung zu begleiten und individuelle Lösungen zu finden.
 
+[Odwiedź stronę](http://www.rechtsanwaeltin-carolin-richter.de)
