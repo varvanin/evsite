@@ -93,7 +93,6 @@ export default {
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
-  min-height: calc(100vh - 60px);
 }
 
 .fade-enter-active,
@@ -113,12 +112,9 @@ export default {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: var(--footer-height);
   padding: 0 calc(var(--space) / 2);
-  top: 0;
-  font-size: 0.6rem;
+  margin-bottom: 1em;
+  font-size: 0.55rem;
   z-index: 20;
 
   &__left,

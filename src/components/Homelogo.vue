@@ -8,9 +8,9 @@
     <p class="homelogo__intro">{{ $static.metadata.siteDescription }}</p>
 
     <p class="homelogo__links">
-      <g-link to="/about/">.o mnie</g-link>
-      <g-link to="/projects/">.projekty</g-link>
-      <g-link to="/contact/">.kontakt</g-link>
+      <g-link to="/about/">O mnie</g-link>
+      <g-link to="/projects/">Projekty</g-link>
+      <g-link to="/contact/">Kontakt</g-link>
     </p>
 
     <div class="social">
@@ -66,12 +66,15 @@ export default {
     opacity: 0.8;
   }
   &__site-title {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   &__links {
     margin-top: -0.5em;
     a {
       margin: 0 0.5em;
+      color: var(--logo-color);
+      padding: .3em;
+      font-family: "visby-round";
       text-decoration: none;
     }
   }
