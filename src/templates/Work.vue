@@ -23,7 +23,6 @@
       <!-- Add comment widgets here -->
     </div>
 
-    <Author class="work-author" />
   </Layout>
 </template>
 
@@ -53,8 +52,6 @@ query Work ($id: ID!) {
   work: work (id: $id) {
     title
     path
-    date (format: "D. MMMM YYYY")
-    timeToRead
     tags {
       id
       title

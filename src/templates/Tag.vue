@@ -20,7 +20,6 @@ query Tag ($id: ID!) {
           ...on Work {
             title
             path
-            date (format: "D. MMMM YYYY")
             timeToRead
             description
             content
