@@ -1,10 +1,10 @@
 <template>
   <Layout :show-logo="true" :showNav="true">
-    <div class="container">
-      <div class="profile">
-        <g-image src="~/assets/images/profile.png" />
+    <div class="content">
+      <div class="itm profile">
+        <g-image src="~/assets/images/profile.png" width="500" />
       </div>
-      <div class="about">
+      <div class="itm about">
         <h1>O mnie</h1>
         <p>
           Witaj, mam na imię Eugeniusz. Zajmuję się tworzeniem profesjonalnych stron internetowych w
@@ -31,28 +31,30 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  background-color: var(--bg-content-color);
-  margin: 0 auto;
+.content {
+  display: flex;
+  flex-direction: row;
   transition: background-color 0.6s;
   padding: var(--space);
   border-radius: var(--radius);
   box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.02),
     1px 1px 15px 0 rgba(0, 0, 0, 0.03);
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.6s;
+
+   .itm {
+     justify-content: center;
+     padding: 2em;
+   }
+
+   img {
+     width: 100em;
+   }
   
 }
 
-.profile {
-  padding: var(--space);
+@media all and (max-width: 500px) {
+	.content { flex-direction: column; }
 }
 
-img {
-
-  }
-
-.about {
-  padding: var(--space);
-}
 </style>
 
