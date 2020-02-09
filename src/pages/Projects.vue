@@ -40,3 +40,16 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.works {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+@media all and (max-width: 500px) {
+	.works { flex-direction: column; }
+}
+
+</style>
