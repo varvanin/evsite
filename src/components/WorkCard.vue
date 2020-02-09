@@ -35,6 +35,7 @@ export default {
     margin-right: calc(var(--space) * -1);
     margin-bottom: calc(var(--space) / 2);
     margin-top: calc(var(--space) * -1);
+    padding: 0.5em;
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
 
