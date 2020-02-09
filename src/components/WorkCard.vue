@@ -7,20 +7,14 @@
       <h2 class="work-card__title" v-html="work.title" />
       <p class="work-card__description" v-html="work.description" />
 
-      <WorkTags class="work-card__tags" :work="work" />
-
       <g-link class="work-card__link" :to="work.path">Link</g-link>
     </div>
   </div>
 </template>
 
 <script>
-import WorkTags from '~/components/WorkTags'
 
 export default {
-  components: {
-    WorkTags
-  },
   props: ['work'],
 }
 </script>
@@ -29,7 +23,6 @@ export default {
 .work-card {
   margin-bottom: var(--space);
   position: relative;
-
   &__header {
     margin-left: calc(var(--space) * -1);
     margin-right: calc(var(--space) * -1);
@@ -38,30 +31,20 @@ export default {
     padding: 0.5em;
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
-
     &:empty {
       display: none;
     }
   }
-
   &__image {
     min-width: 100%;
   }
-
   &__title {
     margin-top: 0;
   }
-
   &:hover {
     transform: translateY(-5px);
     box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
   }
-
-  &__tags {
-    z-index: 1;
-    position: relative;
-  }
-
   &__link {
     position: absolute;
     top: 0;

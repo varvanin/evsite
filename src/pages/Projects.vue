@@ -1,10 +1,8 @@
 <template>
   <Layout :show-logo="true" :showNav="true">
-
     <div class="works">
       <WorkCard v-for="edge in $page.works.edges" :key="edge.node.id" :work="edge.node" />
     </div>
-
   </Layout>
 </template>
 
@@ -18,11 +16,6 @@ query {
         description
         cover_image (width: 770, height: 380, blur: 10)
         path
-        tags {
-          id
-          title
-          path
-        }
       }
     }
   }
@@ -49,7 +42,8 @@ export default {
 }
 
 @media all and (max-width: 500px) {
-	.works { flex-direction: column; }
+  .works {
+    flex-direction: column;
+  }
 }
-
 </style>

@@ -10,8 +10,7 @@ module.exports = {
   siteDescription: 'tworzenie i projektowanie stron internetowych.',
 
   templates: {
-    Work: '/:title',
-    Tag: '/tag/:id'
+    Work: '/:title'
   },
 
   plugins: [
@@ -21,14 +20,6 @@ module.exports = {
       options: {
         typeName: 'Work',
         path: 'content/works/*.md',
-        refs: {
-          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
-          tags: {
-            typeName: 'Tag',
-            create: true
-          }
-        }
-      }
     }
   ],
 
