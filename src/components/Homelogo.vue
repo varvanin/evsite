@@ -10,7 +10,6 @@
     <p class="homelogo__links">
       <g-link to="/about/">.o mnie</g-link>
       <g-link to="/projects/">.projekty</g-link>
-      <g-link to="/blog/">.artykuly</g-link>
       <g-link to="/contact/">.kontakt</g-link>
     </p>
 

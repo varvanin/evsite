@@ -1,50 +1,46 @@
 <template>
   <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">
-        {{ $page.post.title }}
+    <div class="work-title">
+      <h1 class="work-title__text">
+        {{ $page.work.title }}
       </h1>
 
-      <PostMeta :post="$page.post" />
-
     </div>
 
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+    <div class="work content-box">
+      <div class="work__header">
+        <g-image alt="Cover image" v-if="$page.work.cover_image" :src="$page.work.cover_image" />
       </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+      <div class="work__content" v-html="$page.work.content" />
 
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
+      <div class="work__footer">
+        <WorkTags :work="$page.work" />
       </div>
     </div>
 
-    <div class="post-comments">
+    <div class="work-comments">
       <!-- Add comment widgets here -->
     </div>
 
-    <Author class="post-author" />
+    <Author class="work-author" />
   </Layout>
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
+import WorkTags from '~/components/WorkTags'
 
 export default {
   components: {
-    PostMeta,
-    PostTags
+    WorkTags
   },
   metaInfo () {
     return {
-      title: this.$page.post.title,
+      title: this.$page.work.title,
       meta: [
         {
           name: 'description',
-          content: this.$page.post.description
+          content: this.$page.work.description
         }
       ]
     }
@@ -53,8 +49,8 @@ export default {
 </script>
 
 <page-query>
-query Post ($id: ID!) {
-  post: post (id: $id) {
+query Work ($id: ID!) {
+  work: work (id: $id) {
     title
     path
     date (format: "D. MMMM YYYY")
@@ -72,12 +68,12 @@ query Post ($id: ID!) {
 </page-query>
 
 <style lang="scss">
-.post-title {
+.work-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
 }
 
-.post {
+.work {
 
   &__header {
     width: calc(100% + var(--space) * 2);
@@ -115,7 +111,7 @@ query Post ($id: ID!) {
   }
 }
 
-.post-comments {
+.work-comments {
   padding: calc(var(--space) / 2);
 
   &:empty {
@@ -123,7 +119,7 @@ query Post ($id: ID!) {
   }
 }
 
-.post-author {
+.work-author {
   margin-top: calc(var(--space) / 2);
 }
 </style>

@@ -1,6 +1,5 @@
 ---
-title: Markdown test file
-date: 2019-02-06
+title: My work 2
 published: true
 tags: ['Markdown','Test files']
 canonical_url: false

@@ -1,35 +1,32 @@
 <template>
-  <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
-    <div class="post-card__header">
-      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+  <div class="work-card content-box" :class="{'work-card--has-poster' : work.poster}">
+    <div class="work-card__header">
+      <g-image alt="Cover image" v-if="work.cover_image" class="work-card__image" :src="work.cover_image" />
     </div>
-    <div class="post-card__content">
-      <h2 class="post-card__title" v-html="post.title" />
-      <p class="post-card__description" v-html="post.description" />
+    <div class="work-card__content">
+      <h2 class="work-card__title" v-html="work.title" />
+      <p class="work-card__description" v-html="work.description" />
 
-      <PostMeta class="post-card__meta" :post="post" />
-      <PostTags class="post-card__tags" :post="post" />
+      <WorkTags class="work-card__tags" :work="work" />
 
-      <g-link class="post-card__link" :to="post.path">Link</g-link>
+      <g-link class="work-card__link" :to="work.path">Link</g-link>
     </div>
   </div>
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
+import WorkTags from '~/components/WorkTags'
 
 export default {
   components: {
-    PostMeta,
-    PostTags
+    WorkTags
   },
-  props: ['post'],
+  props: ['work'],
 }
 </script>
 
 <style lang="scss">
-.post-card {
+.work-card {
   margin-bottom: var(--space);
   position: relative;
 

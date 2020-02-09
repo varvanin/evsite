@@ -1,6 +1,6 @@
 <template>
-   <div class="post-tags">
-   		<g-link class="post-tags__link" v-for="tag in post.tags" :key="tag.id" :to="tag.path">
+   <div class="work-tags">
+   		<g-link class="work-tags__link" v-for="tag in work.tags" :key="tag.id" :to="tag.path">
    			<span>#</span> {{ tag.title }}
    		</g-link>
     </div>
@@ -8,12 +8,12 @@
 
 <script>
 export default {
-  props: ['post']
+  props: ['work']
 }
 </script>
 
 <style lang="scss">
-.post-tags {
+.work-tags {
   margin: 1em 0 0;
 
   &__link {

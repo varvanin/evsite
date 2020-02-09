@@ -4,8 +4,8 @@
       # {{ $page.tag.title }}
     </h1>
 
-    <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+    <div class="works">
+      <WorkCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :work="edge.node"/>
     </div>
   </Layout>
 </template>
@@ -17,7 +17,7 @@ query Tag ($id: ID!) {
     belongsTo {
       edges {
         node {
-          ...on Post {
+          ...on Work {
             title
             path
             date (format: "D. MMMM YYYY")
@@ -33,11 +33,11 @@ query Tag ($id: ID!) {
 </page-query>
 
 <script>
-import PostCard from '~/components/PostCard.vue'
+import WorkCard from '~/components/WorkCard.vue'
 
 export default {
   components: {
-    PostCard
+    WorkCard
   },
   metaInfo: {
     title: 'Hello, world!'

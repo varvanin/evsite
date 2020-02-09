@@ -10,7 +10,7 @@ module.exports = {
   siteDescription: 'tworzenie i projektowanie stron internetowych.',
 
   templates: {
-    Post: '/:title',
+    Work: '/:title',
     Tag: '/tag/:id'
   },
 
@@ -19,8 +19,8 @@ module.exports = {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Post',
-        path: 'content/posts/*.md',
+        typeName: 'Work',
+        path: 'content/works/*.md',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
