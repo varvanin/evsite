@@ -20,6 +20,9 @@ module.exports = {
       options: {
         typeName: 'Work',
         path: 'content/works/*.md',
+        refs: {
+        }
+      }
     }
   ],
 
