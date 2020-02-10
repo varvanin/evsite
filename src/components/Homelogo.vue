@@ -63,25 +63,25 @@ export default {
     color: var(--logo-color);
   }
   &__intro {
-    opacity: 0.8;
+    opacity: 0.9;
   }
   &__site-title {
     font-size: 1.8em;
   }
   &__links {
-    margin-top: -0.5em;
+    margin-top: 0.5em;
     a {
       margin: 0 0.5em;
       color: var(--logo-color);
       padding: .3em;
-      font-family: "visby-round";
+      font-family: 'visby-round', Helvetica, Arial, sans-serif;
       text-decoration: none;
     }
   }
 }
 
 .social {
-  font-size: 1.6em;
+  font-size: 1.5em;
   a {
     color: var(--logo-color);
     padding: 0.2em;

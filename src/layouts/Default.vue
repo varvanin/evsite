@@ -54,10 +54,8 @@ export default {
 <style lang="scss">
 @font-face {
   font-family: "visby-round";
-  src: url("../assets/fonts/visby-round.eot");
+  src: url("../assets/fonts/visby-round.woff");
   src: url("../assets/fonts/visby-round.eot?#iefix") format("embedded-opentype"),
-    url("../assets/fonts/visby-round.woff") format("woff"),
-    url("../assets/fonts/visby-round-bold.eot"),
     url("../assets/fonts/visby-round-bold.woff");
 }
 
@@ -65,7 +63,6 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--header-color);
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
   top: 0;
@@ -113,7 +110,6 @@ export default {
 .footer {
   display: flex;
   padding: 0 calc(var(--space) / 2);
-  margin-bottom: 1em;
   font-size: 0.55rem;
   z-index: 20;
 
