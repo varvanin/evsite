@@ -12,7 +12,6 @@
 <script>
 import Homelogo from '~/components/Homelogo.vue'
 
-
 export default {
   components: {
     Homelogo

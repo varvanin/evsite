@@ -58,10 +58,6 @@ export default {
   text-align: center;
   z-index: 999;
   padding: calc(var(--space) / 0.4) 0;
-
-  &__svg {
-    color: var(--logo-color);
-  }
   &__intro {
     opacity: 0.9;
   }

@@ -18,13 +18,11 @@
       </main>
     </transition>
     <footer class="footer">
-      <div class="header__left">
         <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
         <span class="footer__links">
           Działa na
           <a href="//gridsome.org">Gridsome</a>
         </span>
-      </div>
     </footer>
   </div>
 </template>
@@ -41,7 +39,7 @@ export default {
   },
   metaInfo: {
     title: "Tworzenie i projektowanie stron internetowych",
-    titleTemplate: "%s | szybko. tanio. zajebiście."
+    titleTemplate: "%s"
   },
   components: {
     Logo,
@@ -88,18 +86,19 @@ export default {
 
 
 .main {
+  flex: 1 0 auto;
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  min-height: calc(88vh);
 }
 
 .fade-enter-active,
 .fade-leave-active {
   transition-property: opacity;
-  transition-duration: 0.3s;
+  transition-duration: 0.1s;
 }
 
 .fade-enter-active {
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 
 .fade-enter,
@@ -108,16 +107,10 @@ export default {
 }
 
 .footer {
-  display: flex;
+  flex: 0 0 auto;
   padding: 0 calc(var(--space) / 2);
   font-size: 0.55rem;
   z-index: 20;
-
-  &__left,
-  &__right {
-    display: flex;
-    align-items: center;
-  }
 
   > span {
     margin: 0 0.35em;
