@@ -10,7 +10,7 @@ module.exports = {
   siteDescription: 'tworzenie i projektowanie stron internetowych.',
 
   templates: {
-    Work: '/:title'
+    Work: 'works/:title'
   },
 
   plugins: [
