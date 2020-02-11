@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="true" :showNav="true" :showParticles="false">
+  <Layout :show-logo="true" :showNav="true" >
 
     <div class="contact">
       <h2>tel. 720 971 XXX</h2>

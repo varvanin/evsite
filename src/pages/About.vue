@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="true" :showNav="true" :showParticles="false">
+  <Layout :show-logo="true" :showNav="true" >
     <div class="content">
       <div class="itm profile">
         <g-image src="~/assets/images/profile.png" width="500" />
