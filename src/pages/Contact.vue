@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="true">
+  <Layout :show-logo="true" :showNav="true" :showParticles="false">
 
     <div class="contact">
       <h2>tel. 720 971 XXX</h2>
@@ -8,11 +8,6 @@
 
   </Layout>
 </template>
-
-
-<script>
-
-</script>
 
 <style lang="scss">
   .contact {

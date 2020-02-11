@@ -15,8 +15,6 @@
 .logo {
   
   color: var(--body-color)!important;
-
-
 	&__image {
 		vertical-align: middle;
 		border-radius: 99px;

@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="true" :showNav="true">
+  <Layout :show-logo="true" :showNav="true" :showParticles="false">
     <div class="works">
       <WorkCard v-for="edge in $page.works.edges" :key="edge.node.id" :work="edge.node" />
     </div>

@@ -8,7 +8,6 @@ import { faFacebook, faInstagram, faWhatsapp} from '@fortawesome/free-brands-svg
 import { faAt } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-
 config.autoAddCss = false;
 library.add(faWhatsapp, faFacebook, faInstagram, faAt)
 
