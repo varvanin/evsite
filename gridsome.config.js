@@ -8,15 +8,8 @@ module.exports = {
   },
 
   icon: {
-    favicon: {
-      src: './src/favicon.png',
-      sizes: [16, 32]
-    },
-    touchicon: {
-      src: './src/touch-icon.png',
-      sizes: [76, 152, 120, 167],
-      precomposed: true
-    }
+    favicon: './src/favicon.png',
+    touchicon: './src/touchicon.png'
   },
 
   plugins: [
