@@ -7,6 +7,18 @@ module.exports = {
     Work: '/:title'
   },
 
+  icon: {
+    favicon: {
+      src: './src/favicon.png',
+      sizes: [16, 32]
+    },
+    touchicon: {
+      src: './src/touch-icon.png',
+      sizes: [76, 152, 120, 167],
+      precomposed: true
+    }
+  },
+
   plugins: [
     {
       // Create posts from markdown files
