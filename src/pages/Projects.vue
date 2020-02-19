@@ -39,6 +39,7 @@ export default {
   display: flex;
   flex-direction: row;
   padding: 1em;
+
 }
 
 @media all and (max-width: 500px) {

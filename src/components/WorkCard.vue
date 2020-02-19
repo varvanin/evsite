@@ -21,7 +21,7 @@ export default {
 
 <style lang="scss">
 .work-card {
-  margin-bottom: var(--space);
+  margin: 1em;
   position: relative;
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -43,7 +43,7 @@ export default {
   }
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,0.5);
   }
   &__link {
     position: absolute;
