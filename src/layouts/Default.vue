@@ -15,7 +15,7 @@
         <slot />
       </main>
     <footer class="footer">
-      <Wave />
+  
     </footer>
   </div>
 </template>
@@ -25,7 +25,6 @@
 import Logo from "~/components/Logo.vue";
 import ToggleTheme from "~/components/ToggleTheme.vue";
 import Nav from "~/components/Nav.vue";
-import Wave from "~/components/Wave";
 
 export default {
   props: {
@@ -39,8 +38,7 @@ export default {
   components: {
     Logo,
     ToggleTheme,
-    Nav,
-    Wave
+    Nav
   }
 };
 </script>
@@ -87,7 +85,7 @@ export default {
 }
 
 .footer {
-  flex: 0 0 auto;
+  display: block;
   padding: 0 calc(var(--space) / 2);
   z-index: 20;
 }

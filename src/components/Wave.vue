@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style>
   .wave {
     display: block;
     width: 100%;
