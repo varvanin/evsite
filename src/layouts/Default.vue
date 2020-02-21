@@ -11,17 +11,11 @@
         <ToggleTheme />
       </div>
     </header>
-    <transition name="fade" appear>
       <main class="main">
         <slot />
       </main>
-    </transition>
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
-      <span class="footer__links">
-        Działa na
-        <a href="//gridsome.org">Gridsome</a>
-      </span>
+      <Wave />
     </footer>
   </div>
 </template>
@@ -31,6 +25,7 @@
 import Logo from "~/components/Logo.vue";
 import ToggleTheme from "~/components/ToggleTheme.vue";
 import Nav from "~/components/Nav.vue";
+import Wave from "~/components/Wave";
 
 export default {
   props: {
@@ -44,7 +39,8 @@ export default {
   components: {
     Logo,
     ToggleTheme,
-    Nav
+    Nav,
+    Wave
   }
 };
 </script>
@@ -90,33 +86,9 @@ export default {
   min-height: calc(88vh);
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition-property: opacity;
-  transition-duration: 0.1s;
-}
-
-.fade-enter-active {
-  transition-delay: 0.1s;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
-}
-
 .footer {
   flex: 0 0 auto;
   padding: 0 calc(var(--space) / 2);
-  font-size: 0.55rem;
   z-index: 20;
-
-  > span {
-    margin: 0 0.35em;
-  }
-
-  a {
-    color: currentColor;
-  }
 }
 </style>
