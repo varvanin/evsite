@@ -53,6 +53,8 @@ export default {
 
 .header {
   display: flex;
+  position: sticky;
+  background-color: var(--bg-color);
   justify-content: space-between;
   align-items: center;
   min-height: var(--header-height);

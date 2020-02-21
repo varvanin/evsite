@@ -1,9 +1,9 @@
 <template>
-    <nav class="nav__links">
+    <div class="nav nav__links">
       <g-link to="/about/">O mnie</g-link>
       <g-link to="/projects/">Projekty</g-link>
       <g-link to="/contact/">Kontakt</g-link>
-    </nav>
+    </div>
 </template>
 
 <script>
