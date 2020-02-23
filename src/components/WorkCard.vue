@@ -65,4 +65,12 @@ export default {
     z-index: 0;
   }
 }
+
+@media all and (max-width: 500px) {
+  .work-card{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 </style>

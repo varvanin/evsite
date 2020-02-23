@@ -43,6 +43,8 @@ export default {
 
 @media all and (max-width: 500px) {
   .works {
+    width: 100%;
+    align-items: center;
     flex-direction: column;
   }
 }
