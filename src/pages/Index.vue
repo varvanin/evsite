@@ -2,7 +2,6 @@
   <Layout :show-logo="false" :showNav="false">
     <!-- Homelogo intro -->
     <Homelogo :show-title="true" />
-    <Wave />
   </Layout>
 </template>
 
@@ -12,12 +11,10 @@
 
 <script>
 import Homelogo from '~/components/Homelogo.vue';
-import Wave from "~/components/Wave";
 
 export default {
   components: {
-    Homelogo,
-    Wave
+    Homelogo
   },
     name: 'Główna',
     metaInfo: {

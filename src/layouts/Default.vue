@@ -59,6 +59,7 @@ export default {
   align-items: center;
   min-height: var(--header-height);
   padding: 0 calc(var(--space) / 2);
+  transition: color .6s, background-color .6s;
   top: 0;
   z-index: 10;
 
