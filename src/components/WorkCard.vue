@@ -1,7 +1,12 @@
 <template>
   <div class="work-card content-box" :class="{'work-card--has-poster' : work.poster}">
     <div class="work-card__header">
-      <g-image alt="Cover image" v-if="work.cover_image" class="work-card__image" :src="work.cover_image" />
+      <g-image
+        alt="Cover image"
+        v-if="work.cover_image"
+        class="work-card__image"
+        :src="work.cover_image"
+      />
     </div>
     <div class="work-card__content">
       <h2 class="work-card__title" v-html="work.title" />
@@ -13,10 +18,9 @@
 </template>
 
 <script>
-
 export default {
-  props: ['work'],
-}
+  props: ["work"]
+};
 </script>
 
 <style lang="scss">
@@ -43,7 +47,7 @@ export default {
   }
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 3px 10px -2px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.5);
   }
   &__link {
     position: absolute;
@@ -51,7 +55,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.0;
+    opacity: 0;
     overflow: hidden;
     text-indent: -9999px;
     z-index: 0;
