@@ -25,6 +25,10 @@ export default {
 
 <style lang="scss">
 .work-card {
+  width: 30%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
   margin: 1em;
   position: relative;
   &__header {

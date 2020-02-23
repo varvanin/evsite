@@ -37,11 +37,8 @@ export default {
 <style lang="scss">
 .works {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start;
+  flex-wrap: wrap;
   padding: 1em;
-
 }
 
 @media all and (max-width: 500px) {
