@@ -37,7 +37,9 @@ export default {
 <style lang="scss">
 .works {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
   padding: 1em;
 
 }
