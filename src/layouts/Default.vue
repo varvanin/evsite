@@ -32,7 +32,7 @@ export default {
     showNav: { default: true },
   },
   metaInfo: {
-    title: "Tworzenie i projektowanie stron internetowych",
+    title: "Projektowanie i tworzenie stron www Słubice",
     titleTemplate: "%s"
   },
   components: {
